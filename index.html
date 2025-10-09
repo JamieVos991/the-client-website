@@ -104,12 +104,22 @@
         </nav>
       </header>
       <section>
-        <ul>
+        <ul id="animatie-gsap">
           <h1>
             Welkom bij het
             <span class="overlegplatform-span">Overlegplatform</span> voor
             Associate degree
           </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consectetur nam harum rerum possimus at consequatur sequi
+            laboriosam, aliquam fugiat, dolorem mollitia adipisci illum
+            recusandae facere cum sit quos fuga exercitationem.
+          </p>
+          <li>
+            <button>lorem</button>
+            <button>Leer meer</button>
+          </li>
         </ul>
       </section>
       <section>
@@ -227,7 +237,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
     <script>
-      gsap.from("h1", {
+      gsap.from("#animatie-gsap", {
         opacity: 0,
         y: 60,
         duration: 1.5,
