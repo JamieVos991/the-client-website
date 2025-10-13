@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,4 +15,10 @@ body {
 
 :root {
   --lichtgroene-kleur: #9ad0c2;
+}
+
+.overlegplatform-span {
+  background: var(--lichtgroene-kleur);
+  border-radius: 1000px;
+  color: white;
 }
